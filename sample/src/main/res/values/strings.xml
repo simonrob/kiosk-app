@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Survey Kiosk Template App</string>
+	<string name="device_admin_description">Survey Kiosk uses admin mode to prevent exiting the survey</string>
+	<string name="action_submit">Submit</string>
+	<string name="message_submitted">Response submitted – thank you for your feedback</string>
+	<string name="message_invalid">Please select an answer to all questions</string>
+	<string name="message_response_count">Responses received: %1$d</string>
+
+	<string name="preference_key_source_id">source_id</string>
+	<string name="preference_key_response_count">response_count</string>
+
+	<!-- question and response strings -->
+	<string name="question_1">Question 1?</string>
+	<string name="question_2">Question 2?</string>
+	<string name="question_3">Question 3?</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+
+</resources>

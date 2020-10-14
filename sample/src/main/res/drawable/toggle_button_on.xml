@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+	android:insetBottom="6dp"
+	android:insetLeft="6dp"
+	android:insetRight="6dp"
+	android:insetTop="6dp">
+	<layer-list>
+		<item>
+			<shape
+				android:shape="rectangle"
+				android:tint="?attr/colorControlNormal">
+				<corners android:radius="2dp" />
+				<solid android:color="@color/white" />
+				<padding
+					android:bottom="6dp"
+					android:left="6dp"
+					android:right="6dp"
+					android:top="6dp" />
+			</shape>
+		</item>
+		<item android:gravity="bottom|fill_horizontal">
+			<shape android:shape="rectangle">
+				<size android:height="7dp" />
+				<solid android:color="?attr/colorControlActivated" />
+			</shape>
+		</item>
+	</layer-list>
+</inset>

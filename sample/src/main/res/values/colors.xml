@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="theme_primary">#3f51b5</color>
+	<color name="theme_dark">#283593</color>
+	<color name="theme_accent">#3f51b5</color>
+
+	<color name="button_green">#84af3f</color>
+	<color name="button_green_dark">#517c0c</color>
+
+	<color name="button_red">#ef5350</color>
+	<color name="button_red_dark">#bc201d</color>
+
+	<color name="white">#ffffff</color>
+
+</resources>

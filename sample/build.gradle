@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+	compileSdkVersion 29
+
+	defaultConfig {
+		applicationId 'ac.robinson.kiosk'
+		minSdkVersion 14
+		targetSdkVersion 29
+		versionCode 1
+		versionName '1.0'
+		resConfigs 'en'
+	}
+
+	buildTypes {
+		release {
+			minifyEnabled true
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+			shrinkResources true
+		}
+	}
+}
+
+dependencies {
+	implementation 'androidx.appcompat:appcompat:1.2.0'
+	implementation 'com.google.android.material:material:1.2.1'
+}
